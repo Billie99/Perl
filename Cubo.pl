@@ -6,7 +6,7 @@ my $lato;
 print "Inserisci il valore del lato ";
 $lato = <STDIN>;
 
-$volume = $lato * $lato * $lato;
+my $volume = $lato * $lato * $lato;
 print "Il volume del cubo e': $volume \n";
 
 
