@@ -3,8 +3,8 @@
 print "Calcolare il doppio di un numero \n";
 
 print "Inserisci un numero ";
-$numero = <STDIN>;
+my $numero = <STDIN>;
 
-$doppio = $numero * 2;
+my $doppio = $numero * 2;
 print "Il doppio e': $doppio \n";
 
